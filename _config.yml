@@ -1,9 +1,10 @@
 ### Site Settings ###
 title               : Jungmin Lee's Portfolio
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      안녕하세요, 게임 프로그래머를 꿈꾸는 개발자 이정민 입니다.<br>
+                      C++, C#, 그리고 약간의 리버스 엔지니어링 (IDA)을 통하여<br>
+                      발매된 게임에 새로운 컨텐츠를 추가하거나, <br>
+                      게임 데이터를 복호화 및 언패킹하는 프로그램을 만들고 있습니다.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : jarari/jarari.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -25,7 +26,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Jungmin Lee
-  image             : https://yt3.googleusercontent.com/dASP9kmB2HaI-ny5LZfy18yK8WqarkFB2kJApMCuLmL93KUud7pz0XxPFnZj_kvSONl0YcpWMg=s160-c-k-c0x00ffffff-no-rj
+  image             : assets/nexus_profile.png
 #  behance           : your_username
 # dribbble          : your_username
   email             : hazardhax11@gmail.com

@@ -7,8 +7,20 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+안녕하세요, 저는 **{{ site.author.name }}** 입니다 :wave:.<br>
+저는 **미국 오리건 주립대학교**에서 **Computer Science**를 전공했으며, 세부 전공으로는 인공지능을 택했었습니다.<br>
+**GPA 3.52/4.0**이라는 비교적 높은 학점으로 2023년 9월 졸업하여 한국에 귀국한 지 1년.<br>
+어릴 적부터 꿈이었던 **게임 프로그래밍에 다시 도전**해보려 합니다.<br>
+
+# **My Passion**
+
+비록 전공은 인공지능이었지만, 게임에 대한 열정은 쉬지 않았습니다. **플레이어로서**, 그리고 동시에 **개발자**로서.<br>
+다양한 장르의 게임을 직접 플레이 해보며 실제 게임에 적용된 **구현 방법과 구조, 그리고 개선점**들을 끊임없이 고민했으며<br>
+어떻게 하면 좀 더 재밌는 게임이 될 수 있을까, **비공식적인 모드**들을 통해 기능들을 추가해보기도 하였습니다.<br>
+그 결과, 저는 **Nexus Mods** 라는 사이트에서 2024년 10월 기준 **누적 다운로드수 190만**,<br>
+**매달 약 10만명의 새로운 유저**들이 제 모드를 다운받는 Verified Mod Author가 되었습니다.<br>
+이제 이 경험을 바탕으로 큰 프로젝트에 참여하여 제 꿈을 펼쳐나가고 싶습니다.
+
 
 <div class="row">
 {% include about/timeline.html %}

@@ -1,6 +1,6 @@
 ---
 name: RVC Training with Game Voice Assets
-tools: [C++]
+tools: [RVC, AI]
 image: assets/rvc.png
 description: Retrieval-based Voice Conversion을 이용한 게임 캐릭터의 음성 특징 학습과 변환
 ---

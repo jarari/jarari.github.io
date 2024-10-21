@@ -16,10 +16,10 @@ description: Retrieval-based Voice Conversion을 이용한 게임 캐릭터의 �
 [Applio](https://applio.org/)는 RVC를 조금 더 쉽게 사용할 수 있도록 여러가지 플러그인과 음정 추출 알고리즘을 추가한 프로젝트입니다. 저는 모든 학습과 추론을 Applio에서 제공하는 웹 기반 UI에서 진행하였습니다.
 
 ### Training
-여러 음정 추출 알고리즘을 테스트해본 결과, rmvpe가 평균적으로 좋은 결과를 보였고 학습 속도 또한 다른 알고리즘에 비해 빨랐습니다. crepe의 경우 학습 속도가 rmvpe에 비해 3~4배정도 오래 걸렸으나 몇몇 코너 케이스에서 더 정확한 결과를 보였습니다. 완벽한 결과를 위해서는 두 알고리즘을 사용한 모델을 모두 제작한 후 더 좋은 품질의 오디오를 합성하여 사용하는 것이 좋습니다.
-
-![제너레이터 로스 그래프](assets/rvc_loss.png)
-HiFi-GAN은 Generative Adversarial Network 모델을 이용하여 음성 데이터를 합성합니다. GAN은 데이터를 생성하는 Generator와 데이터를 구별하는 Discriminator를 서로 대립시켜(adversarial) Generator는 최대한 진짜같은 데이터를 만들어내고, Discriminator는 생성된 데이터와 학습 데이터로 이루어진 문제에서 이를 구분하게 만듭니다. 이러한 경쟁구도에서 Generator는 Discriminator를 속일 수 있도록 점점 사실적인 데이터를 만들어내게 되고, Discriminator는 Generator가 제공하는 가짜 데이터를 구분하기 위해 강화되게 됩니다. 이 때 중요한 것이 모델이 underfit이나 overfit되지 않도록 주의하는 것인데요, underfit은 말 그대로 학습이 덜 된 상태를 의미하고 overfit은 비유하자면 기출만 잘 푸는 학생같은 상태가 됨을 뜻합니다. 이를 가려내기 위해 tenserboard를 통해 Generator의 loss율을 관찰하였고, 이 값이 안정화되는 스텝의 모델들을 직접 테스트해보며 잘 만들어진 모델을 추려냈습니다.
+{% include elements/figure.html image="projects/assets/rvc_loss.png" caption="Generator Loss" %}
+HiFi-GAN은 Generative Adversarial Network 모델을 이용하여 음성 데이터를 합성합니다. GAN은 데이터를 생성하는 Generator와 데이터를 구별하는 Discriminator를 서로 대립시켜(adversarial) Generator는 최대한 진짜같은 데이터를 만들어내고, Discriminator는 생성된 데이터와 학습 데이터로 이루어진 문제에서 이를 구분하게 만듭니다. 이러한 경쟁구도에서 Generator는 Discriminator를 속일 수 있도록 점점 사실적인 데이터를 만들어내게 되고, Discriminator는 Generator가 제공하는 가짜 데이터를 구분하기 위해 강화되게 됩니다. 이 때 중요한 것이 모델이 underfit이나 overfit되지 않도록 주의하는 것인데요, underfit은 말 그대로 학습이 덜 된 상태를 의미하고 overfit은 비유하자면 기출만 잘 푸는 학생같은 상태가 됨을 뜻합니다. 이를 가려내기 위해 tenserboard를 통해 Generator의 loss율을 관찰하였고, 이 값이 안정화되는 스텝의 모델들을 직접 테스트해보며 잘 만들어진 모델을 추려냈습니다.<br>
+<br>
+음정 추출 알고리즘 또한 중요한데, 여러 알고리즘을 테스트해본 결과, rmvpe가 평균적으로 좋은 결과를 보였고 학습 속도 또한 다른 알고리즘에 비해 빨랐습니다. crepe의 경우 학습 속도가 rmvpe에 비해 3~4배정도 오래 걸렸으나 몇몇 코너 케이스에서 더 정확한 결과를 보였습니다. 완벽한 결과를 위해서는 두 알고리즘을 사용한 모델을 모두 제작한 후 더 좋은 품질의 오디오를 합성하여 사용하는 것이 좋습니다.
 
 ### Results
 <p class="text-center">

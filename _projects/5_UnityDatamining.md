@@ -1,6 +1,6 @@
 ---
 name: Unity Engine 데이터마이닝
-tools: [C++]
+tools: [C#]
 image: assets/U_Logo_Small_Black_CMYK_1C-1589x537-ada00fa.png
 description: 국내외 Unity Engine 기반 게임의 암호화 파일 탐구
 ---

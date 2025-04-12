@@ -1,13 +1,13 @@
 ---
-name: Replica (Discontinued)
+name: 2D 플랫포머 포트폴리오
 tools: [C#]
 image: assets/replica.png
 description: 유니티 C#을 이용한 2D 플랫포머 액션 게임. Art by Aduare
 ---
 
 # Replica
-
-2018년 초부터 작업하여 12월까지 작업했으나 팀원들의 일정 문제로 개발 중단된 프로젝트.<br>
+{% include elements/video.html id="kP5UOgp4Eb0" %}
+팀원들의 일정 문제로 개발 중단된 프로젝트.<br>
 아트 담당 1명 ([Aduare](https://x.com/aduare_rp))과 제가 메인 프로그래머로 작업하여 큰 틀을 구성한 후에 버그 픽스 및 추가 작업을 위한 프로그래머를 10월경 구했지만 결국 완성까지는 이어지지 못했습니다.
 
 <p class="text-center">

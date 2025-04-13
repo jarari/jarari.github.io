@@ -1,6 +1,6 @@
 ---
 title: >
-    Unity Cinemachine 3 탐구
+    Unity Cinemachine 3
 tags: [Unity]
 style: border
 color: primary

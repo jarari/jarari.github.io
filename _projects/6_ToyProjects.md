@@ -1,7 +1,7 @@
 ---
 name: 게임 모딩 프로젝트
 tools: [C++]
-image: assets/grapplinghook.png
+image: assets/uneducatedshooter.png
 description: 스카이림, 폴아웃 4 모딩 모음입니다.
 ---
 

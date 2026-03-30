@@ -1,10 +1,17 @@
 ### Site Settings ###
 title               : Jungmin Lee's Portfolio
 description         : >-
-                      안녕하세요, 게임 프로그래머를 꿈꾸는 개발자 이정민 입니다.<br>
-                      C++, C#, 그리고 약간의 리버스 엔지니어링 (IDA)을 통하여<br>
-                      발매된 게임에 새로운 컨텐츠를 추가하거나, <br>
-                      게임 데이터를 복호화 및 언패킹하는 프로그램을 만들고 있습니다.
+                      안녕하세요, 게임 프로그래머 이정민 입니다.<br>
+                      <br>
+                      콩스튜디오 Kong82 프로젝트에서 9개월 간 엔지니어로 근무하며<br>
+                      DOTS + ECS 리팩토링<br>
+                      클라이언트 다인 멀티플레이/팀전 구조로 리팩토링<br>
+                      게임모드 (배틀로얄, 넥뿌) 프로토타이핑<br>
+                      FX 바이너리 데이터 구조 및 FX 에디터 제작<br>
+                      저사양 기기 타겟 최적화<br>
+                      등의 작업을 담당하였습니다.<br>
+                      <br>
+                      이외에는 취미로 베데스다 게임의 모드 제작, 게임 데이터 파일 분석 및 복호화를 하고 있습니다.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : jarari/jarari.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -96,6 +103,7 @@ defaults:
     values:
       comments: false                                   # Set to true to enable disqus comments
 
+github: [metadata]
 
 ### Exclude from processing ###
 exclude:

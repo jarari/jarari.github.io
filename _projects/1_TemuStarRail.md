@@ -1,6 +1,6 @@
 ---
 name: 테무에서 산 스타레일
-tools: [C#]
+tools: [Unity, C#]
 image: assets/temustarrail.png
 description: "유니티 C#을 이용한 3D 행동력 기반 턴제 RPG. Honkai: Star Rail 모작"
 ---

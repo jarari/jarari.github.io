@@ -1,6 +1,6 @@
 ---
 name: 테무에서 산 젠레스 존 제로
-tools: [C#]
+tools: [Unity, C#]
 image: assets/temuzzz.png
 description: 유니티 C#을 이용한 3D 액션 게임. Zenless Zone Zero 모작
 ---

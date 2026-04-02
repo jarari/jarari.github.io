@@ -289,6 +289,8 @@ description: Kong Studios 재직 중 작업한 프로젝트
 
 ### 성과
 
+![Frame Debugger](assets/kong82_6.png "Frame Debugger")
+
 - 전투 시 고사양 기기에서도 발생하던 프리징/렉 전면 해소
 - UGUI 드로우콜 89→35로 감소
 - 전체 테스트 기기에서 15~20 프레임 상승
